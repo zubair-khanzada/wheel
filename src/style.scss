@@ -1,0 +1,86 @@
+@font-face {
+  font-family: poppins-extra-bold;
+  src: url('../src/fonts/Poppins-ExtraBold.ttf');
+}
+////////// Extra Bold //////////
+
+@font-face {
+  font-family: poppins-black;
+  src: url('../src/fonts/Poppins-Black.ttf');
+}
+////////// Black //////////
+
+@font-face {
+  font-family: poppins-bold;
+  src: url('../src/fonts/Poppins-Bold.ttf');
+}
+////////// Bold //////////
+
+@font-face {
+  font-family: poppins-semi-bold;
+  src: url('../src/fonts/Poppins-SemiBold.ttf');
+}
+////////// Semi Bold //////////
+
+@font-face {
+  font-family: poppins-medium;
+  src: url('../src/fonts/Poppins-Medium.ttf');
+}
+////////// Medium //////////
+
+@font-face {
+  font-family: poppins-regular;
+  src: url('../src/fonts/Poppins-Regular.ttf');
+}
+////////// Regular //////////
+
+@font-face {
+  font-family: poppins-light;
+  src: url('../src/fonts/Poppins-Light.ttf');
+}
+////////// Light //////////
+
+@font-face {
+  font-family: poppins-extra-light;
+  src: url('../src/fonts/Poppins-ExtraLight.ttf');
+}
+////////// Extra Light //////////
+
+.header {
+  padding: 6px 20px 8px;
+  box-shadow: 0 0 3px 0 #cecece;
+  .logo {
+    text-align: left;
+    img {
+      width: 120px;
+    }
+  }
+  .ant-menu-horizontal{
+    border-bottom: 0;
+    margin: 20px 0 0 0;
+    .ant-menu-item {
+      border: 0;
+      font-size: 15px;
+      letter-spacing: 0.3px;
+      font-family: poppins-medium;
+      &:hover {
+        border-bottom: 0;
+      }
+    }
+    .ant-menu-submenu {
+      border-bottom: 0;
+      font-size: 15px;
+      letter-spacing: 0.3px;
+      font-family: poppins-medium;
+      &:hover {
+        border-bottom: 0;
+      }
+    }
+    .ant-menu-item-group-title {
+      padding: 0;
+    }
+  }
+  .right {
+    text-align: right;
+  }
+}
